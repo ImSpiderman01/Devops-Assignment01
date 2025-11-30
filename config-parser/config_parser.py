@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 def parse_config():
     config = configparser.ConfigParser()
-    config.read("config.ini")
+    config.read("/Users/lilash/Practice Assignmnt01/Devops-Assignment01/config-parser/config.ini")
 
     data = {
         "Database": {
